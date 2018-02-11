@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">imt3673_lab_01a</string>
+    <string name="a1_b1_txt">Hash</string>
+    <string name="a2_b2_txt">Quit</string>
+    <string-array name="l1_items">
+        <item>SHA256</item>
+        <item>SHA3-256</item>
+        <item>RIPEMD160</item>
+        <item>BLAKE2s-256</item>
+    </string-array>
+</resources>
