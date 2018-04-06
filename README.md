@@ -1,5 +1,5 @@
 # imt3673-lab1a
-IMT3673 Lab 1A (Android, Java) 
+IMT3673 Lab 1A (Android, Java, Go Mobile) 
 
 Create an application consisting of 2 activities. 
 
@@ -7,7 +7,7 @@ Create an application consisting of 2 activities.
 * editable text field (T1)
 * a drop-down list of options (L1)
   * The options should consists of SHA256, SHA3-256, RIPEMD160, BLAKE2s-256
-  * See hashing algorithms
+  * See [hashing algorithms](https://golang.org/pkg/crypto/#Hash) 
 * a button (B1), with caption "Hash"
 
 ## The second activity (A2) should have:
@@ -28,5 +28,5 @@ The app will combine the Java-written UI, and Golang written hashing logic, to c
 * When a user presses B1, T3 shows the hash of text from T1, with a given algorithm picked from the drop-down.
 
 ## Hints
-* Set yourself up with the Golang Mobile and check for known issues at gomobile hints and setup.
+* Set yourself up with the [Golang Mobile](https://github.com/golang/go/wiki/Mobile) and check for known issues at gomobile hints and setup.
 * Use Java for all the UI, app management, and Activities. Use Golang ONLY for computing the hashes. This is the crux of the exercise. The passing between Java and Golang is only done for "strings" and for the hashing algorithm - how can you represent that? What would be the easiest representation to communicate between Java and Go?
